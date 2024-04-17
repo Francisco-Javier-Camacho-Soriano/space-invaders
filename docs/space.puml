@@ -1,7 +1,11 @@
 @startuml space 
 
 class Alien
-class Cañon
+class Cañon{
+    + MoverDerecha()
+    + MoverIzquierda()
+    + Disparar()
+}
 class Barrera
 class Proyectil
 class Vida
@@ -40,6 +44,8 @@ Alien --|> Colisionable
 Pulpo --|> Alien
 Calamar --|> Alien
 Cangrejo --|> Alien 
+
+Alien *-- Puntuacion
 
 
 
