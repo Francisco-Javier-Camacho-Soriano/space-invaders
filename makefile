@@ -7,4 +7,5 @@ bin/space : src/main.cpp
 run : bin/space
 	./bin/space
 
-run : bin/ma
+runTest : bin/test
+	./bin/test
