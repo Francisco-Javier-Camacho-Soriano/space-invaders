@@ -2,5 +2,6 @@
     "files.associations": {
         "chrono": "cpp",
         "algorithm": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/workspaces/space-invaders/FTXUI"
 }
